@@ -4,6 +4,7 @@ using namespace std;
 int main() 
 {
     int num;
+    cout<<"Enter the Number: ";
     cin>>num;
     int sum=0;
     while(num>0)
