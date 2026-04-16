@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int n;
+    cout<<"Enter Number of Integers: ";
     cin>>n;
     int arr[n];
     for(int i=0; i<n; i++)
@@ -15,6 +16,6 @@ int main()
         if(arr[i]>max) max=arr[i];
         if(arr[i]<min) min=arr[i];
     }
-    cout<<"Maximum "<<max<<" "<<"Minimum "<<min;
+    cout<<"Maximum: "<<max<<" "<<"Minimum: "<<min;
     return 0;
 }
